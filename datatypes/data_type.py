@@ -18,7 +18,7 @@ status=False
 print(status)
 print(type(status))
 
-full_name="Mukesh"
+full_name="Sreelatha"
 # Step 4: full_name holds text, written inside quotes. In Python this type is called str (string).
 print(full_name)
 print(type(full_name))
@@ -26,9 +26,11 @@ print(type(full_name))
 list1=[1,2,3,4,5]
 # Step 5: list1 holds several values together inside square brackets, in a specific order. In Python this type is called a list. Items in a list can be added, removed, or changed later, and each item can be accessed by its position (index).
 print(list1)
+print(list1[3])
 print(type(list1))
 
-dict1={"name":"Mukesh","age":37}
+dict1={"name":"Sreelatha","age":40}
 # Step 6: dict1 holds data as key-value pairs inside curly braces. In Python this type is called a dict (dictionary). Instead of accessing a value by position like a list, you access it using its key, for example dict1["name"].
 print(dict1)
+print(dict1["name"])
 print(type(dict1))

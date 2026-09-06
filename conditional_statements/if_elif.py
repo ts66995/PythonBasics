@@ -6,7 +6,8 @@
 status_code=500
 
 # make a range of status code
-
+if status_code==100:
+    print("information")
 # Step 1: Python checks status_code == 200 first. Since status_code is 500, this is False, so Python moves on to the next check.
 if status_code == 200:
     print("Success")
